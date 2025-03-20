@@ -5,3 +5,7 @@ console.log(a.length);
 console.log(a.charAt(0));
 console.log(a.split(" ").reverse().join());
 console.log(a);
+console.log(a.at(12));
+console.log(a.at(-1));
+console.log(a.charCodeAt(0));
+console.log(a[0]);
