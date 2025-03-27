@@ -35,3 +35,31 @@ function myFunction(values){
     return values *10;
 }
 console.log(values);
+
+// creating new arrays
+const fruits = [];
+fruits.push('Mango','Orange','Pineapple','Mango','Watermelon','Apple');
+console.log(fruits);
+
+// Indexing in arrays
+const fruit = fruits.at(2);
+const slice = fruits.at(-1);
+console.log(fruit);
+console.log(fruits[1]);
+console.log(slice);
+
+// Joining two arrays
+console.log(fruits.concat(cars,nums));
+
+// Copy from one index to another in the same array
+fruits.copyWithin(0,2);
+console.log(fruits);
+
+// filtering for new array that passes a condition(s)
+const age = [34,22,14,2,34,90,12,19,0,18]
+const result = age.filter(checkAdult)
+
+function checkAdult(age){
+    return age >= 18;
+}
+console.log(result);
