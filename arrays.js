@@ -63,3 +63,7 @@ function checkAdult(age){
     return age >= 18;
 }
 console.log(result);
+
+
+var name=""
+let mon=""
